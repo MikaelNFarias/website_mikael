@@ -12,7 +12,7 @@
   
   `npx create-next-app@latest`
 
-  ### 3º Siga o passo a passo no terminal conforme preferência. Neste caso:
+  ### 3º Follow the steps in the terminal as you prefer. In this case:
   
   `What is your project named? ... website_mikael`
   
@@ -28,6 +28,6 @@
   
   `√ Would you like to customize the default import alias (@/*)? ... No / Yes`
 
-  ### 4º Feito, seu projeto já está estruturado e pronto para ser iniciado! Teste rodando:
+  ### 4º Done, your project is now structured and ready to be started! Test it by running:
 
   `npm run dev`
