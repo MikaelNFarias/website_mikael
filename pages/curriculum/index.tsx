@@ -14,7 +14,7 @@ export default function Curriculum() {
       <S.ComingSoonSection>
         <S.Description>
           <S.Title>Coming Soon</S.Title>
-          <S.Text>I'm working on something amazing. Stay tuned!</S.Text>
+          <S.Text>I&apos;m working on something amazing. Stay tuned!</S.Text>
           <S.Button onClick={() => router.push('/')}>Go Back Home</S.Button>
         </S.Description>
       </S.ComingSoonSection>
