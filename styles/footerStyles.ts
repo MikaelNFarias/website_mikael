@@ -4,11 +4,11 @@ import { FaLinkedin, FaGithub } from 'react-icons/fa';
 export const FooterSection = styled.section`
   display: flex;
   flex-direction: column;
+  width: 100%;
   background-color: #EAEAEA;
   align-items: center;
   justify-content: center;
   padding: 0px 20px;
-
 `;
 
 export const Divider = styled.div`

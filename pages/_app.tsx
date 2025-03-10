@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
       <Head>
         <title>Mikael</title>
-        <meta name="description" content="FBOT - Robotics" />
+        <meta name="description" content="Mikael - Portfolio" />
         <link rel="icon" href="/m-solid.svg" />
       </Head>
 

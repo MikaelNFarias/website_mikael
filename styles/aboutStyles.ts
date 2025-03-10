@@ -14,10 +14,7 @@ export const AboutSection = styled.section`
   background-color: #EAEAEA;
   padding: 20px;
 
-  @media (max-width: 768px) {
-    flex-direction: column;
-    text-align: center;
-  }
+
 `;
 
 
