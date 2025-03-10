@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 import * as S from '../../styles/aboutStyles';
 
 export default function About() {

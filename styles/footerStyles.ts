@@ -1,18 +1,20 @@
 import styled from "styled-components";
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
+export const FooterSection = styled.section`
+  display: flex;
+  flex-direction: column;
+  background-color: #EAEAEA;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 20px;
+
+`;
+
 export const Divider = styled.div`
   width: 95%;
   height: 1px;
-  background-color: #000;
-`;
-
-export const Contact = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  gap: 102px;
+  background-color: #CFCFCF;
 `;
 
 export const Info = styled.div`
@@ -74,13 +76,6 @@ export const GitHubIcon = styled(FaGithub)`
   margin-right: 0.5rem;  /* Opcional: espaço entre o ícone e o texto */
 `;
 
-export const FooterSection = styled.section`
-  display: flex;
-  flex-direction: column;
-  background-color: #EAEAEA;
-  align-items: center;
-  justify-content: center;
-`;
 
 export const Title = styled.h2`
   font-size: 28px;
@@ -92,18 +87,24 @@ export const Text = styled.p`
   color: #919191;
 `;
 
-export const Description = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 1.0rem;
-`;
-
 export const Copyright = styled.span`
   font-size: 20px; 
   color: #696969;
   text-align: center; 
   display: block; 
   margin-top: 20px; 
+`;
+
+export const Contact = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 102px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
 `;

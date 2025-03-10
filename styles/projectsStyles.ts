@@ -1,16 +1,13 @@
 import styled from "styled-components";
-import Image from 'next/image';
 
-export const AboutSection = styled.section`
+export const ComingSoonSection = styled.section`
   display: flex;
   width: 100%;
-
+  height: 100vh;
   flex-direction: row;
   gap: 30px;
   align-items: center;
   justify-content: center;
-  margin-top: 146px;
-  margin-bottom: 90px;
   background-color: #EAEAEA;
   padding: 20px;
 
@@ -20,11 +17,11 @@ export const AboutSection = styled.section`
   }
 `;
 
-
 export const Description = styled.div`
   display: flex;
   flex-direction: column;
   width: 45%;
+  text-align: center;
 
   @media (max-width: 768px) {
     width: 90%;
@@ -42,7 +39,6 @@ export const Title = styled.h1`
   }
 `;
 
-
 export const Text = styled.p`
   line-height: 1.6;
   font-size: 24px;
@@ -52,24 +48,23 @@ export const Text = styled.p`
   }
 `;
 
-export const ImageContainer = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 1rem;
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  overflow: hidden;
+export const Button = styled.button`
+  background-color: #000;
+  color: #fff;
+  margin-top: 20px;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #333;
+  }
 
   @media (max-width: 768px) {
-    width: 200px;
-    height: 200px;
+    font-size: 16px;
+    padding: 8px 16px;
   }
-`;
-
-export const Img = styled(Image)`
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 `;
